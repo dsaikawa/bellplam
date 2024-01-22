@@ -3,7 +3,7 @@ import classes from './Header.module.css';
 
 const Header = () => {
   return (
-    <Group my="sm" mx="md" justify="space-between">
+    <Group my="sm" mx="lg" justify="space-between">
       <Title className={classes.title} c="white">
         bellplam
       </Title>
