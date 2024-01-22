@@ -1,4 +1,4 @@
-import { BackgroundImage, Flex, Image } from '@mantine/core';
+import { Image } from '@mantine/core';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectFade } from 'swiper/modules';
 
