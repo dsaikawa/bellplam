@@ -24,8 +24,8 @@ export default function App({ Component, pageProps }: AppProps) {
         </Head>
         <AppShell header={{ height: 60, offset: !isTopPage }}>
           <AppShell.Header
-            // withBorder={!isTopPage}
-            style={isTopPage ? { borderColor: 'white' } : { borderColor: 'black' }}
+            withBorder={!isTopPage}
+            style={{ borderColor: 'black' }}
             zIndex={100}
             bg={isTopPage ? 'rgba(255,255,255,0)' : 'white'}
           >
