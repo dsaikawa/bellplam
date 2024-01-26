@@ -3,7 +3,7 @@ import classes from '../../components/Header/Header.module.css';
 
 const ProfilePage = () => {
   return (
-    <Container mt="xl">
+    <Container mt="xl" size="xxl">
       <Text size="50px" className={classes.title}>
         Profile
       </Text>

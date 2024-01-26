@@ -14,7 +14,7 @@ import WorkCard from '@/components/Work/WorkCard';
 
 const WorkPage = () => {
   return (
-    <Container mt="xl">
+    <Container mt="xl" size="xxl">
       <Stack gap="xl">
         <Text size="50px" className={classes.title}>
           Work
