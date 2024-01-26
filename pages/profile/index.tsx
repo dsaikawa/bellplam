@@ -7,7 +7,7 @@ const ProfilePage = () => {
       <Text size="50px" className={classes.title}>
         Profile
       </Text>
-      <Stack h={1000}>hoge</Stack>
+      <Stack h={1000}>profile page</Stack>
     </Container>
   );
 };
