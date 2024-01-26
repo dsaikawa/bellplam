@@ -32,7 +32,6 @@ export default function App({ Component, pageProps }: AppProps) {
             <Header color={isTopPage ? 'white' : 'black'} />
           </AppShell.Header>
 
-          {/* <AppShell.Navbar p="md">Navbar</AppShell.Navbar> */}
           <AppShell.Main>
             <Component {...pageProps} />
           </AppShell.Main>
