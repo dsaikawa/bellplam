@@ -20,7 +20,7 @@ const ContactPage = () => {
       <form onSubmit={form.onSubmit((values) => console.log(values))}>
         <Stack justify="center">
           <Text size="50px" className={classes.title}>
-            Contact 🫶
+            Contact
           </Text>
           <TextInput
             size="md"

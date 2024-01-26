@@ -1,5 +1,15 @@
+import { Container, Stack, Text } from '@mantine/core';
+import classes from '../../components/Header/Header.module.css';
+
 const ProfilePage = () => {
-  return <></>;
+  return (
+    <Container mt="xl">
+      <Text size="50px" className={classes.title}>
+        Profile
+      </Text>
+      <Stack h={1000}>hoge</Stack>
+    </Container>
+  );
 };
 
 export default ProfilePage;

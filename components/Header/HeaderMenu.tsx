@@ -1,7 +1,7 @@
 import { Anchor, Text } from '@mantine/core';
 import classes from './Header.module.css';
 
-type Props = { href: string; title: string; color: string };
+type Props = { href?: string; title: string; color: string };
 const HeaderMenu = ({ href, title, color }: Props) => {
   return (
     <Anchor href={href} underline="never">
