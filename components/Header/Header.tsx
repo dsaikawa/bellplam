@@ -1,4 +1,4 @@
-import { Group, Title, Text, Stack, Anchor } from '@mantine/core';
+import { Group } from '@mantine/core';
 import HeaderMenu from './HeaderMenu';
 import HeaderTitle from './HeaderTitle';
 
