@@ -6,14 +6,22 @@ type WorkCardProps = { image: string; link: string; title: string; category: str
 const WorkCard = ({ image, title, category }: WorkCardProps) => {
   const { ref, width } = useElementSize();
   const { ref: viewPortRef, inViewport } = useInViewport();
+  const [viewed, setViewed] = useState(false);
+
+  useEffect(() => {
+    if (inViewport) {
+      setViewed(true);
+    }
+  }, [inViewport]);
+
   return (
     <Box
       w="100%"
       ref={viewPortRef}
       style={{
         display: 'inline-block',
-        transition: 'opacity 1s cubic-bezier(0.47, 0, 0.745, 0.715)',
-        opacity: inViewport ? '1' : '0',
+        transition: 'opacity 3s cubic-bezier(0.47, 0, 0.745, 0.715)',
+        opacity: viewed ? '1' : '0',
       }}
     >
       <Anchor href="/work/1">
